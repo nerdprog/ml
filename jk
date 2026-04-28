@@ -1,0 +1,4 @@
+from sklearn.preprocessing import LabelEncoder
+
+le = LabelEncoder()
+df["guestroom"] = le.fit_transform(df["guestroom"])
